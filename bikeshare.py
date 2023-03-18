@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 ######################## [ CUSTOM DATA FOLDER ] ########################
-WORK_FOLDER = ""    # adjust path to sub folder containing data
+WORK_FOLDER = "C:/Users/ry/Documents/Privat/IT/git/udacity-git-course/pdsnd_github/"    # adjust path to sub folder containing data
 ########################################################################
 
 
@@ -143,7 +143,7 @@ def load_data(city, month, weekday):
     """
 
     # load data into a dataframe
-    df = pd.read_csv("./{}{}".format(WORK_FOLDER,CITY_DATA[city]))
+    df = pd.read_csv("{}{}".format(WORK_FOLDER,CITY_DATA[city]))
 
     # add columns start_month, start_weekday
     df["Start Time"] = pd.to_datetime(df["Start Time"])
@@ -317,7 +317,7 @@ def main():
                             break
 
 
-        # Run another assesment?
+        # Run another assessment?
         run_assessment = get_userinput_yesno("Do you want to analyze another set of data?")
 
 if __name__ == "__main__":
