@@ -148,7 +148,7 @@ def load_data(city, month, weekday):
     # add columns start_month, start_weekday
     df["Start Time"] = pd.to_datetime(df["Start Time"])
     df["start_month"] = df["Start Time"].dt.month
-    df["start_weekday"] = df["Start Time"].dt.day_of_week
+    df["start_weekday"] = df["Start Time"].dt.weekday
 
     # apply filters
     if month > 0:
