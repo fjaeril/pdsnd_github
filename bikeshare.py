@@ -310,6 +310,7 @@ def main():
 
                 # Display chunks of raw data if requested
                 if get_userinput_yesno("Do you want to see 5 lines of raw data?", default_val=KEY_NO):
+                    pd.set_option("display.max_columns",200)
                     for chunk in chunker(df, 5):
                         print(chunk)
                         # Display next 5 lines?
