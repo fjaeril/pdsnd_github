@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 ######################## [ CUSTOM DATA FOLDER ] ########################
-WORK_FOLDER = "C:/Users/ry/Documents/Privat/IT/git/udacity-git-course/pdsnd_github/"    # adjust path to sub folder containing data
+WORK_FOLDER = "./"    # adjust path to sub folder containing data
 ########################################################################
 
 
