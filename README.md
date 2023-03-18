@@ -1,5 +1,8 @@
 # Basic data exploration of Bikeshare data using pandas
 
+### Date created
+2023-03-06
+
 ### Description
 This project was part of the Udacity Nandodegree "Python programming for data science". The Python program allows the user to do a basic data exploration of predefined data sets.
 
