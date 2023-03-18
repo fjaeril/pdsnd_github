@@ -40,4 +40,5 @@ This project was part of the Udacity Nandodegree "Python programming for data sc
 * Udacity nanodegree and the provided sample file
 * Human readable time deltas - [Stack Overflow](https://stackoverflow.com/questions/538666/format-timedelta-to-string)
 * Getting Month name from number - [PYnative](https://pynative.com/python-get-month-name-from-number/)
+* Python Get the Day of the Week - [PYnative](https://pynative.com/python-get-the-day-of-week/)
 
