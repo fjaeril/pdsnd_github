@@ -18,7 +18,7 @@ CITY_DATA = {"chicago": "chicago.csv",
 
 def get_userinput_yesno(question, default_val=KEY_YES):
     """
-    Asks user a simple yes/no question and returns the user input standardized as KEY_YES or KEY_NO
+    Asks user a simple yes/no question and returns the user input as boolean (True = Yes; False = No)
 
     Args:
         (str) question - Question user needs to answer with Yes or No
@@ -53,7 +53,7 @@ def get_userinput_yesno(question, default_val=KEY_YES):
 
 def get_filters():
     """
-    Asks user to specify a city, month day to analyze.
+    Asks user to specify a city, month (optional) and week day (optional) to analyze.
 
     Returns:
         (str) city - name of the city to analyze
